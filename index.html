@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First Electron | PCB 전문 에이전시</title>
+<meta name="description" content="First Electron은 PCB 전문 에이전시입니다. 양면, 다층, Rigid-Flex, FPCB, IC 기판까지 품질, 비용, 납기를 기준으로 고객과 연결합니다.">
+<meta name="theme-color" content="#14306e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="First Electron | PCB 전문 에이전시">
+<meta property="og:description" content="양면 기판부터 IC 기판까지. 품질을 먼저 보고, 비용을 줄이고, 납기를 지킵니다.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+  <div class="wrap top">
+    <a class="brand" href="#top" aria-label="First Electron">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="13" fill="#d9b25f"/>
+        <circle cx="16" cy="16" r="5.5" fill="#14306e"/>
+      </svg>
+      <span class="brand__name">First Electron</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#products" data-i18n="nav.products">제품</a>
+      <a href="#industries" data-i18n="nav.industries">적용 산업</a>
+      <a href="#contact" data-i18n="nav.contact">문의</a>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="ko" aria-pressed="true">한국어</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="wrap hero__body">
+    <h1 data-i18n="hero.title">First Electron은 PCB 전문 에이전시입니다.</h1>
+    <p class="hero__sub" data-i18n="hero.sub">품질을 먼저 보고, 비용을 줄이고, 납기를 지킵니다.</p>
+    <p class="hero__actions">
+      <a class="btn btn--gold" href="#contact" data-i18n="hero.cta1">견적 문의</a>
+      <a class="btn btn--line" href="#products" data-i18n="hero.cta2">제품 보기</a>
+    </p>
+  </div>
+
+  <figure class="stack">
+    <svg viewBox="0 0 1200 320" role="img" aria-label="4-layer PCB cross-section" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <pattern id="weave" width="10" height="10" patternUnits="userSpaceOnUse">
+          <path d="M0 5H10M5 0V10" stroke="#fff" stroke-opacity=".08" stroke-width="1" fill="none"/>
+        </pattern>
+      </defs>
+
+      <g class="lyr" style="--i:0"><rect class="s-mask" x="0" y="40" width="1200" height="16"/></g>
+
+      <g class="lyr" style="--i:1">
+        <rect class="s-cu" x="150" y="56" width="160" height="12"/>
+        <rect class="s-cu" x="340" y="56" width="90" height="12"/>
+        <rect class="s-cu" x="470" y="56" width="200" height="12"/>
+        <rect class="s-cu" x="788" y="56" width="64" height="12"/>
+        <rect class="s-cu" x="880" y="56" width="100" height="12"/>
+      </g>
+
+      <g class="lyr" style="--i:2">
+        <rect class="s-pp" x="0" y="68" width="1200" height="44"/>
+        <rect fill="url(#weave)" x="0" y="68" width="1200" height="44"/>
+      </g>
+
+      <g class="lyr" style="--i:3">
+        <rect class="s-cu" x="150" y="112" width="90" height="12"/>
+        <rect class="s-cu" x="270" y="112" width="170" height="12"/>
+        <rect class="s-cu" x="470" y="112" width="120" height="12"/>
+        <rect class="s-cu" x="640" y="112" width="100" height="12"/>
+        <rect class="s-cu" x="760" y="112" width="70" height="12"/>
+        <rect class="s-cu" x="880" y="112" width="100" height="12"/>
+      </g>
+
+      <g class="lyr" style="--i:4">
+        <rect class="s-core" x="0" y="124" width="1200" height="72"/>
+        <rect fill="url(#weave)" x="0" y="124" width="1200" height="72"/>
+      </g>
+
+      <g class="lyr" style="--i:5">
+        <rect class="s-cu" x="200" y="196" width="130" height="12"/>
+        <rect class="s-cu" x="360" y="196" width="140" height="12"/>
+        <rect class="s-cu" x="540" y="196" width="180" height="12"/>
+        <rect class="s-cu" x="760" y="196" width="70" height="12"/>
+        <rect class="s-cu" x="860" y="196" width="120" height="12"/>
+      </g>
+
+      <g class="lyr" style="--i:6">
+        <rect class="s-pp" x="0" y="208" width="1200" height="44"/>
+        <rect fill="url(#weave)" x="0" y="208" width="1200" height="44"/>
+      </g>
+
+      <g class="lyr" style="--i:7">
+        <rect class="s-cu" x="150" y="252" width="120" height="12"/>
+        <rect class="s-cu" x="300" y="252" width="60" height="12"/>
+        <rect class="s-cu" x="430" y="252" width="220" height="12"/>
+        <rect class="s-cu" x="788" y="252" width="64" height="12"/>
+        <rect class="s-cu" x="880" y="252" width="100" height="12"/>
+      </g>
+
+      <g class="lyr" style="--i:8"><rect class="s-mask" x="0" y="264" width="1200" height="16"/></g>
+
+      <g class="via">
+        <rect class="s-hole" x="814" y="56" width="12" height="208"/>
+        <rect class="s-cu" x="811" y="56" width="3" height="208"/>
+        <rect class="s-cu" x="826" y="56" width="3" height="208"/>
+      </g>
+
+      <g class="tags">
+        <text x="24" y="66">L1</text>
+        <text x="24" y="122">L2</text>
+        <text x="24" y="206">L3</text>
+        <text x="24" y="262">L4</text>
+        <text class="tags__note" x="1176" y="52" text-anchor="end">solder mask</text>
+        <text class="tags__note" x="1176" y="95" text-anchor="end">prepreg</text>
+        <text class="tags__note" x="1176" y="164" text-anchor="end">core</text>
+        <text class="tags__note" x="1176" y="234" text-anchor="end">prepreg</text>
+        <text class="tags__note" x="1176" y="276" text-anchor="end">solder mask</text>
+      </g>
+    </svg>
+    <figcaption class="wrap stack__cap" data-i18n="hero.cap">4층 PCB 단면 예시</figcaption>
+  </figure>
+</header>
+
+<main>
+  <section class="sec sec--light" id="about">
+    <div class="wrap about">
+      <div class="about__lead">
+        <h2 data-i18n="about.title">PCB에 집중합니다</h2>
+        <p data-i18n="about.body">First Electron은 PCB에 특화된 에이전시입니다. 필요한 PCB를 품질, 비용, 납기 기준으로 고객과 연결합니다.</p>
+      </div>
+      <ul class="vals">
+        <li>
+          <strong data-i18n="v1.t">품질</strong>
+          <span data-i18n="v1.d">품질을 가장 먼저 봅니다.</span>
+        </li>
+        <li>
+          <strong data-i18n="v2.t">비용</strong>
+          <span data-i18n="v2.d">불필요한 비용을 줄입니다.</span>
+        </li>
+        <li>
+          <strong data-i18n="v3.t">납기</strong>
+          <span data-i18n="v3.d">약속한 일정을 지킵니다.</span>
+        </li>
+        <li>
+          <strong data-i18n="v4.t">고객 만족</strong>
+          <span data-i18n="v4.d">고객 만족을 기준으로 일합니다.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec sec--white" id="products">
+    <div class="wrap">
+      <header class="sec__head">
+        <h2 data-i18n="products.title">제품 범위</h2>
+        <p data-i18n="products.lead">양면 기판부터 IC 기판까지 다룹니다.</p>
+      </header>
+
+      <ul class="plist">
+        <li class="prow">
+          <svg class="glyph" viewBox="0 0 64 40" aria-hidden="true">
+            <rect class="g-cu" x="4" y="10" width="56" height="4"/>
+            <rect class="g-die" x="4" y="14" width="56" height="12"/>
+            <rect class="g-cu" x="4" y="26" width="56" height="4"/>
+          </svg>
+          <h3 data-i18n="p1.n">양면 PCB</h3>
+          <p data-i18n="p1.d">기판 양면에 회로를 만든 기본 구조입니다.</p>
+        </li>
+        <li class="prow">
+          <svg class="glyph" viewBox="0 0 64 40" aria-hidden="true">
+            <rect class="g-die" x="4" y="4" width="56" height="32"/>
+            <rect class="g-cu" x="4" y="5" width="56" height="2.5"/>
+            <rect class="g-cu" x="4" y="12" width="56" height="2.5"/>
+            <rect class="g-cu" x="4" y="19" width="56" height="2.5"/>
+            <rect class="g-cu" x="4" y="26" width="56" height="2.5"/>
+            <rect class="g-cu" x="4" y="32.5" width="56" height="2.5"/>
+          </svg>
+          <h3 data-i18n="p2.n">다층 PCB</h3>
+          <p data-i18n="p2.d">회로층을 여러 겹 쌓아 더 촘촘하게 배선합니다.</p>
+        </li>
+        <li class="prow">
+          <svg class="glyph" viewBox="0 0 64 40" aria-hidden="true">
+            <rect class="g-die" x="4" y="6" width="24" height="28"/>
+            <rect class="g-cu" x="4" y="10" width="24" height="2.5"/>
+            <rect class="g-cu" x="4" y="17" width="24" height="2.5"/>
+            <rect class="g-cu" x="4" y="24" width="24" height="2.5"/>
+            <rect class="g-flex" x="28" y="17" width="32" height="6"/>
+            <rect class="g-cu" x="28" y="19" width="32" height="2"/>
+          </svg>
+          <h3 data-i18n="p3.n">Rigid-Flex</h3>
+          <p data-i18n="p3.d">단단한 기판과 휘어지는 기판을 하나로 묶습니다.</p>
+        </li>
+        <li class="prow">
+          <svg class="glyph" viewBox="0 0 64 40" aria-hidden="true">
+            <path class="g-flexline" d="M4 30 C16 30 18 10 32 10 S48 30 60 10" fill="none"/>
+            <path class="g-culine" d="M4 30 C16 30 18 10 32 10 S48 30 60 10" fill="none"/>
+          </svg>
+          <h3 data-i18n="p4.n">FPCB</h3>
+          <p data-i18n="p4.d">휘어지는 연성 기판입니다.</p>
+        </li>
+        <li class="prow">
+          <svg class="glyph" viewBox="0 0 64 40" aria-hidden="true">
+            <rect class="g-die" x="22" y="4" width="20" height="8"/>
+            <rect class="g-die" x="8" y="14" width="48" height="8"/>
+            <rect class="g-cu" x="8" y="17" width="48" height="1.5"/>
+            <circle class="g-cu" cx="14" cy="29" r="2.5"/>
+            <circle class="g-cu" cx="24" cy="29" r="2.5"/>
+            <circle class="g-cu" cx="34" cy="29" r="2.5"/>
+            <circle class="g-cu" cx="44" cy="29" r="2.5"/>
+            <circle class="g-cu" cx="54" cy="29" r="2.5"/>
+          </svg>
+          <h3 data-i18n="p5.n">IC 기판</h3>
+          <p data-i18n="p5.d">반도체 칩을 올려 메인보드와 연결하는 기판입니다.</p>
+        </li>
+      </ul>
+      <p class="plist__note" data-i18n="products.note">상세 사양과 대응 범위는 문의해 주세요.</p>
+    </div>
+  </section>
+
+  <section class="sec sec--light" id="industries">
+    <div class="wrap">
+      <header class="sec__head">
+        <h2 data-i18n="industries.title">적용 산업</h2>
+        <p data-i18n="industries.lead">제품이 쓰이는 여섯 개 분야입니다.</p>
+      </header>
+      <ul class="ind">
+        <li><span class="ind__en">Automotive</span><span class="ind__ko" lang="ko">자동차</span></li>
+        <li><span class="ind__en">LED Display</span><span class="ind__ko" lang="ko">LED 디스플레이</span></li>
+        <li><span class="ind__en">Medical Device</span><span class="ind__ko" lang="ko">의료기기</span></li>
+        <li><span class="ind__en">Telecom</span><span class="ind__ko" lang="ko">통신</span></li>
+        <li><span class="ind__en">Military</span><span class="ind__ko" lang="ko">군용</span></li>
+        <li><span class="ind__en">Home Appliance</span><span class="ind__ko" lang="ko">가전</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec sec--blue" id="contact">
+    <div class="wrap contact">
+      <div class="contact__info">
+        <h2 data-i18n="contact.title">견적과 문의</h2>
+        <dl>
+          <div>
+            <dt data-i18n="contact.addr.l">주소</dt>
+            <dd>
+              <span data-i18n="contact.addr.v">경상북도 구미시 송선로 396-5</span><br>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%86%A1%EC%84%A0%EB%A1%9C%20396-5" target="_blank" rel="noopener" data-i18n="contact.map">지도에서 보기</a>
+            </dd>
+          </div>
+          <div>
+            <dt data-i18n="contact.hours.l">운영 시간</dt>
+            <dd data-i18n="contact.hours.v">평일 오전 9시 ~ 오후 6시</dd>
+          </div>
+          <div>
+            <dt data-i18n="contact.mail.l">이메일</dt>
+            <dd><a href="mailto:harrylee@firstelectron.co.kr">harrylee@firstelectron.co.kr</a></dd>
+          </div>
+        </dl>
+      </div>
+
+      <form class="form" id="inquiry" novalidate>
+        <label>
+          <span data-i18n="f.name">이름</span>
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>
+          <span data-i18n="f.company">회사명</span>
+          <input type="text" name="company" autocomplete="organization">
+        </label>
+        <label>
+          <span data-i18n="f.email">회신받을 이메일</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>
+          <span data-i18n="f.msg">문의 내용</span>
+          <textarea name="message" rows="5" required data-i18n-ph="f.msg.ph" placeholder="필요한 PCB 종류, 수량, 납기를 적어 주세요."></textarea>
+        </label>
+        <button class="btn btn--gold" type="submit" data-i18n="f.submit">메일 작성하기</button>
+        <p class="form__note" data-i18n="f.note">작성한 내용으로 메일 앱이 열립니다.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <span>&copy; First Electron</span>
+    <a href="#top" data-i18n="foot.top">맨 위로</a>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
