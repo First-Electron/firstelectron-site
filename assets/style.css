@@ -403,6 +403,10 @@ html[lang="en"] [lang="ko"] { display: none; }
 .contact__info dd { margin-top: 2px; }
 .contact__info a { text-underline-offset: 4px; }
 
+.rfq { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--line-on-mask); max-width: 28em; }
+.rfq h3 { font-weight: 700; font-size: 1.05rem; line-height: 1.4; }
+.rfq p { margin-top: 6px; font-size: 0.93rem; color: rgba(244, 247, 243, 0.78); }
+
 .form { display: grid; gap: 18px; align-content: start; }
 .form label { display: grid; gap: 6px; font-size: 0.95rem; }
 .form input,

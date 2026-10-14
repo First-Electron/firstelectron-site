@@ -10,7 +10,7 @@
     "nav.contact": "Contact",
 
     "hero.title": "We connect you with proven overseas PCB factories",
-    "hero.sub": "A PCB trading and sourcing agent since 2011. From choosing the factory to delivery and quality control, First Electron handles it.",
+    "hero.sub": "A PCB trading and sourcing agent founded in 2011. From choosing the factory to delivery and quality control, First Electron handles it.",
     "hero.cta1": "Request a quote",
     "hero.cta2": "See products and specs",
     "hero.cap": "Example cross-section of a 4-layer PCB",
@@ -25,7 +25,7 @@
     "facts.4.v": "2 to 4 weeks (samples 2 to 3)",
 
     "about.title": "Who we work with",
-    "about.lead": "First Electron introduces the right overseas factory for each customer and supports smooth PCB supply. We only deal with factories proven on delivery, quality, and cost.",
+    "about.lead": "First Electron introduces the right overseas factory for each customer and supports smooth PCB supply. We deal with factories proven on delivery, quality, and cost.",
     "about.1": "Customers who want to lower cost with more competitive PCB pricing",
     "about.2": "Customers looking for overseas PCB factories with proven quality",
     "about.3": "Customers who struggle with delivery when buying from overseas factories",
@@ -107,8 +107,8 @@
     "fx.1.v": "From 1 year to over 10 years",
     "fx.2.l": "Factory size",
     "fx.2.v": "About 500 staff on average",
-    "fx.3.l": "Main locations",
-    "fx.3.v": "Guangzhou, Hunan, and Jiangxi, China",
+    "fx.3.l": "Factory location",
+    "fx.3.v": "China",
     "fx.4.l": "Typical lead time",
     "fx.4.v": "2 to 4 weeks (samples 2 to 3)",
     "gal.title": "Partner factory equipment",
@@ -117,7 +117,7 @@
     "ind.lead": "We handle PCBs for automotive, 5G and telecom, medical devices, LED, and more.",
 
     "bb.title": "New business: drilling backup boards",
-    "bb.lead": "We also supply the backup boards used under PCBs during drilling.",
+    "bb.lead": "A new product line: the backup boards placed under PCBs during drilling.",
     "bb.h1": "Product",
     "bb.h2": "Thickness",
     "bb.h3": "Applications",
@@ -130,6 +130,8 @@
     "bb.note": "Standard sizes are 37×49, 41×49, and 43×49 inches (40×48 inches for cold punching board), with ±2mm tolerance. Ask us for details.",
 
     "contact.title": "Quotes and inquiries",
+    "contact.co.l": "Company",
+    "contact.co.v": "First Electron",
     "contact.addr.l": "Gumi office",
     "contact.addr.v": "396-5 Songseon-ro, Gumi-si, Gyeongsangbuk-do, Korea",
     "contact.map": "View on map",
@@ -139,6 +141,8 @@
     "contact.mail.l": "Email",
     "contact.insp.l": "Inspection site",
     "contact.insp.v": "Ansan",
+    "rfq.t": "What to include in a quote request",
+    "rfq.d": "Layer count, board thickness, size, quantity, surface finish, target lead time, and design files such as Gerber. We need these to check price and lead time accurately.",
 
     "f.name": "Name",
     "f.company": "Company",
